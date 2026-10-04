@@ -20,7 +20,11 @@
   .poster { display:block; width:100%; height:auto; }
   .buy {
     display:flex; align-items:center; justify-content:space-between; gap:14px;
-    padding:20px 22px 22px; border-top:4px solid var(--navy);
+    padding:14px 22px 22px;
+  }
+  .svc-name {
+    margin:0; padding:20px 22px 0; border-top:4px solid var(--navy);
+    font-size:21px; font-weight:800; line-height:1.4; color:var(--navy);
   }
   .fee { margin:0; line-height:1.2; text-align:left; }
   .fee small { display:block; font-size:13px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:4px; }
@@ -36,7 +40,8 @@
   .enroll:hover { background:#1fbd5a; transform:translateY(-1px); box-shadow:0 6px 18px rgba(37,211,102,.55); }
   .enroll:focus-visible { outline:3px solid var(--navy); outline-offset:3px; }
   @media (max-width:420px){
-    .buy { padding:16px 14px 18px; gap:10px; }
+    .svc-name { padding:16px 14px 0; font-size:18px; }
+    .buy { padding:12px 14px 18px; gap:10px; }
     .fee span { font-size:24px; }
     .enroll { padding:11px 18px; font-size:17px; }
   }
@@ -58,6 +63,7 @@
   <!-- Card 1: Poster + Price + Enroll -->
   <section class="card">
     <img class="poster" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyWIE8xETnmvDAPBhfECmkEMf-MpPvTSWvXEoOqgonOoB70A2MSN5421VDQe_3PDUa2TYNtbycds1rLzgv2_IMRKizSaDIKvmuTxTR_oyB9THW5XcNmzgQvsWCDQbjB5Pz31-d7lBQ13PNgrCveMYsia-XMoxQqEXidosBYkm19pEWRKGqtDO6pacUX2iS/s1254/WhatsApp%20Image%202026-10-03%20at%206.17.53%20PM.jpeg" alt="Professional Profile Development Service - Course Poster">
+    <h1 class="svc-name">Professional Profile Making Service (LinkedIn + ATS - CV + Personal Website)</h1>
     <div class="buy">
       <p class="fee"><small>Service Fee</small><span>2000<em>BDT</em></span></p>
       <!-- নিচের href এ আপনার Google Form লিংক বসান -->
